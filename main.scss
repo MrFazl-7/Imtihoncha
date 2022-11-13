@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1380px;
+    height: 4600px;
+    display: flex; 
+}
+.back {
+    width: 1380px;
+    height: 1600px;
+    background-image: url(/images/Group\ 1.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 80% black);
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
