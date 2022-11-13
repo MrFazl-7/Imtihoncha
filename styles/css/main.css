@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Sumana", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -18,9 +18,64 @@ body {
 .back {
   width: 1380px;
   height: 1600px;
-  background-image: url(/images/Group\ 1.jpg);
-  background-image: linear-gradient(rgba(255, 255, 255, 0) 80% black);
+  background-image: url(/images/Group\ 1.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
+  padding-top: 10px;
+}
+
+ul {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 150px;
+  padding-left: 500px;
+  flex-direction: column;
+  color: white;
+}
+.sec1 h1 {
+  width: 600px;
+  height: 250px;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.sec2 {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba 0, 0, 0, 1);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon1 {
+  border: 1px solid white;
+}
+
+.orange {
+  color: orange;
 }/*# sourceMappingURL=main.css.map */
