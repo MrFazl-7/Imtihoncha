@@ -11,10 +11,11 @@ body {
 
 .container {
   width: 1380px;
-  height: 4600px;
+  height: 3600px;
   display: flex;
   margin: 30px;
   background-color: rgb(19, 19, 19);
+  position: relative;
 }
 
 .back {
@@ -24,7 +25,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
 }
 
 .header {
@@ -64,11 +64,37 @@ ul {
 }
 
 .sec2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   position: absolute;
   top: 1200px;
   width: 100%;
   height: 600px;
+  color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.7) 30%, rgb(19, 19, 19) 40%);
+}
+
+.sec3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 1800px;
+  width: 100%;
+  height: 600px;
+  color: white;
+}
+
+.sec4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 2400px;
+  width: 100%;
+  height: 600px;
+  color: white;
 }
 
 a {
@@ -81,5 +107,83 @@ a {
 }
 
 .orange {
+  color: orange;
+}
+
+.img1 {
+  width: 300px;
+  height: 500px;
+  background-image: url(/images/01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  width: 300px;
+  height: 500px;
+  order: -1;
+  background-image: url(/images/01\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  width: 300px;
+  height: 500px;
+  background-image: url(/images/01\ \(2\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.elements {
+  width: 400px;
+  margin-left: 300px;
+  line-height: normal;
+}
+
+.footer {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 600px;
+}
+
+.fe2 {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 300px;
+}
+
+.fd1 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 600px;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
   color: orange;
 }/*# sourceMappingURL=main.css.map */
