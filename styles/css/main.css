@@ -17,8 +17,7 @@ body {
   background-color: rgb(19, 19, 19);
   position: relative;
 }
-
-.back {
+.container .back {
   width: 1380px;
   height: 1600px;
   background-image: url(/images/Group\ 1.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
@@ -26,8 +25,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.header {
+.container .back .header {
   width: 100%;
   height: 90px;
   display: flex;
@@ -37,8 +35,7 @@ body {
   padding-top: 30px;
   background-color: rgba(0, 0, 0, 0.217);
 }
-
-ul {
+.container .back .header ul {
   width: 500px;
   height: 30px;
   display: flex;
